@@ -1,0 +1,18 @@
+[tool.poetry]
+package-mode = false
+name = "fastapi-backend"
+version = "0.1.0"
+description = ""
+authors = ["Gheorghe Mirca <giony.mirca@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.112.1"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.6.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
